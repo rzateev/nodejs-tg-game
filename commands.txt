@@ -4,3 +4,33 @@ npm install -D nodemon
 npm install node-telegram-bot-api
 git init
 git add .
+git commit -m "init"
+git remote add origin git@github.com:rzateev/nodejs-tg-game.git
+git push origin master
+
+ssh root@X.X.X.X -i id_rsa_X.pub
+sudo update
+sudo apt install git
+sudo apt install nodejs
+sudo apt install npm
+https://github.com/rzateev/nodejs-tg-game.git
+cd nodejs-tg-game
+sudo apt install mc
+mcedit .env // paste TG TOKEN=?????
+npm install
+
+
+sudo apt install curl
+cd ~
+curl -sL https://deb.nodesource.com/setup_16.x | sudo bash -
+cat /etc/apt/sources.list.d/nodesource.list
+sudo apt -y install nodejs
+sudo apr remove npm
+
+npm init
+npm -v
+npm install -g npm@8.1.4
+
+npm start
+
+

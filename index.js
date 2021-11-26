@@ -36,7 +36,6 @@ const start= ()=> {
         }
 
         return bot.sendMessage(chatId,"Я тебя не понимаю, попробуй еще раз!")
-        //console.log(msg)
     } )
 
     bot.on('callback_query', async(msg) =>{
@@ -55,8 +54,6 @@ const start= ()=> {
 
             return bot.sendMessage(chatId, `Попробуй еще раз!`,gameOptions)
         }
-
-        console.log(msg)
     })
 }
 
