@@ -8,7 +8,9 @@ git commit -m "init"
 git remote add origin git@github.com:rzateev/nodejs-tg-game.git
 git push origin master
 
+// Create sert fot remote connect
 ssh root@X.X.X.X -i id_rsa_X.pub
+// Create VDS Ubuntu
 sudo update
 sudo apt install git
 sudo apt install nodejs
@@ -18,7 +20,6 @@ cd nodejs-tg-game
 sudo apt install mc
 mcedit .env // paste TG TOKEN=?????
 npm install
-
 
 sudo apt install curl
 cd ~
@@ -32,5 +33,20 @@ npm -v
 npm install -g npm@8.1.4
 
 npm start
+git pull origin
+
+npm install pm2 -g
+
+pm2 start index.js
+pm2 stop index.js
+
+// Create VDS with DB Postgres
+
+
+// On project
+npm install pg pg-hstore
+
+
+
 
 
