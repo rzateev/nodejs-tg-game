@@ -47,6 +47,15 @@ pm2 stop index.js
 npm install pg pg-hstore
 
 
+///
+local
+git add .
+git commit -m "AAAA"
+git push origin master
+// remote
+git pull origin
+
+
 
 
 
